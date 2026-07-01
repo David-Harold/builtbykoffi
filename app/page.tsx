@@ -7,7 +7,7 @@ export default function Home() {
         <span className="text-xs tracking-widest uppercase text-[#3A3A38] mb-6">
           Engineer · Builder · Figure-outer
         </span>
-        <h1 className="text-6xl font-bold tracking-tight leading-tight max-w-3xl">
+        <h1 className="text-5xl font-bold tracking-tight leading-tight max-w-3xl">
           David-Harold E. Koffi-Essiben
         </h1>
         <p className="mt-6 text-lg text-[#3A3A38] max-w-xl leading-relaxed">
