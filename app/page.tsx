@@ -26,7 +26,7 @@ export default function Home() {
       </section>
 
       {/* Work Section */}
-      <section id="work" className="px-8 py-32 max-w-5xl mx-auto w-full">
+      <section id="work" className="px-8 py-32 max-w-5xl mx-auto w-full scroll-mt-24">
         <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
           Selected Work
         </span>
@@ -87,7 +87,7 @@ export default function Home() {
       </section>
 
       {/* Skills & Credentials Section */}
-      <section id="skills" className="px-8 py-32 w-full border-t border-[#1a1a1a]">
+      <section id="skills" className="px-8 py-32 w-full border-t border-[#1a1a1a] scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
             Skills & Credentials
@@ -164,7 +164,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="px-8 py-32 w-full border-t border-[#1a1a1a]">
+      <section id="about" className="px-8 py-32 w-full border-t border-[#1a1a1a] scroll-mt-24">
         <div className="max-w-5xl mx-auto grid grid-cols-1 gap-16 sm:grid-cols-2">
           <div>
             <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
@@ -198,7 +198,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="px-8 py-32 w-full border-t border-[#1a1a1a]">
+      <section id="contact" className="px-8 py-32 w-full border-t border-[#1a1a1a] scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
             Contact
