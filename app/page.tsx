@@ -112,10 +112,8 @@ export default function Home() {
 
         {/* GitHub */}
         
-          href="https://github.com/David-Harold"
-          target="_blank"
-          className="mt-8 inline-flex items-center gap-3 text-[#3A3A38] hover:text-[#EDEBE4] transition"
-        >
+        <a href="https://github.com/David-Harold" target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex items-center gap-3 text-[#3A3A38] hover:text-[#EDEBE4] transition"> 
+
           <span className="text-xs tracking-widest uppercase">GitHub</span>
           <span className="text-sm">@David-Harold</span>
         </a>
