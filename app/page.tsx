@@ -33,44 +33,55 @@ export default function Home() {
     Things I've built
   </h2>
 
-  <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2">
+  <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
     
     {/* Project Card 1 */}
-    <div className="border border-[#1a1a1a] rounded-lg p-8 hover:border-[#3A3A38] transition">
-      <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
-        Security · Python
-      </span>
-      <h3 className="mt-3 text-xl font-semibold text-[#EDEBE4]">
-        Project Name
-      </h3>
-      <p className="mt-3 text-sm text-[#3A3A38] leading-relaxed">
-        A short description of what this project does and why it matters. 
-        What problem does it solve?
-      </p>
-      <a href="#" className="mt-6 inline-block text-xs tracking-widest uppercase text-[#EDEBE4] hover:text-[#3A3A38] transition">
-        View project →
-      </a>
-    </div>
+<div className="border border-[#1a1a1a] rounded-lg p-8 hover:border-[#3A3A38] transition">
+  <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
+    Shell · Linux
+  </span>
+  <h3 className="mt-3 text-xl font-semibold text-[#EDEBE4]">
+    Deploy Agent
+  </h3>
+  <p className="mt-3 text-sm text-[#3A3A38] leading-relaxed">
+    Individual summative for Introduction to Linux & IT Tools. A deployment automation script built from scratch — my first real systems project.
+  </p>
+  <a href="https://github.com/David-Harold/deploy_agent_David-Harold" target="_blank" rel="noopener noreferrer" className="mt-6 inline-block text-xs tracking-widest uppercase text-[#EDEBE4] hover:text-[#3A3A38] transition">
+    View project →
+  </a>
+</div>
 
-    {/* Project Card 2 */}
-    <div className="border border-[#1a1a1a] rounded-lg p-8 hover:border-[#3A3A38] transition">
-      <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
-        AI · Systems
-      </span>
-      <h3 className="mt-3 text-xl font-semibold text-[#EDEBE4]">
-        Project Name
-      </h3>
-      <p className="mt-3 text-sm text-[#3A3A38] leading-relaxed">
-        A short description of what this project does and why it matters. 
-        What problem does it solve?
-      </p>
-      <a href="#" className="mt-6 inline-block text-xs tracking-widest uppercase text-[#EDEBE4] hover:text-[#3A3A38] transition">
-        View project →
-      </a>
-    </div>
+{/* Project Card 2 */}
+<div className="border border-[#1a1a1a] rounded-lg p-8 hover:border-[#3A3A38] transition">
+  <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
+    Python · Databases
+  </span>
+  <h3 className="mt-3 text-xl font-semibold text-[#EDEBE4]">
+    ALU Higher Level Programming
+  </h3>
+  <p className="mt-3 text-sm text-[#3A3A38] leading-relaxed">
+    All Python programming and database coursework from ALU. Built progressively across the semester — algorithms, data structures, and SQL.
+  </p>
+  <a href="https://github.com/David-Harold/alu-higher_level_programming" target="_blank" rel="noopener noreferrer" className="mt-6 inline-block text-xs tracking-widest uppercase text-[#EDEBE4] hover:text-[#3A3A38] transition">
+    View project →
+  </a>
+</div>
 
-  </div>
-</section>
+{/* Project Card 3 */}
+<div className="border border-[#1a1a1a] rounded-lg p-8 hover:border-[#3A3A38] transition">
+  <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
+    Next.js · TypeScript
+  </span>
+  <h3 className="mt-3 text-xl font-semibold text-[#EDEBE4]">
+    builtbykoffi.com
+  </h3>
+  <p className="mt-3 text-sm text-[#3A3A38] leading-relaxed">
+    This website. Designed and built from scratch using Next.js, Tailwind CSS, and TypeScript. Deployed on Vercel. Open source.
+  </p>
+  <a href="https://github.com/David-Harold/builtbykoffi" target="_blank" rel="noopener noreferrer" className="mt-6 inline-block text-xs tracking-widest uppercase text-[#EDEBE4] hover:text-[#3A3A38] transition">
+    View project →
+  </a>
+</div>
 {/* Skills & Credentials Section */}
 <section id="skills" className="px-8 py-32 w-full border-t border-[#1a1a1a]">
   <div className="max-w-5xl mx-auto">
