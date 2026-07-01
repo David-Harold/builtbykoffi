@@ -71,6 +71,90 @@ export default function Home() {
 
   </div>
 </section>
+{/* Skills & Credentials Section */}
+<section id="skills" className="px-8 py-32 w-full border-t border-[#1a1a1a]">
+  <div className="max-w-5xl mx-auto">
+    
+    <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
+      Skills & Credentials
+    </span>
+    <h2 className="mt-4 text-4xl font-bold text-[#EDEBE4] tracking-tight">
+      What I work with.
+    </h2>
+
+    <div className="mt-16 grid grid-cols-1 gap-16 sm:grid-cols-2">
+
+      {/* Skills */}
+      <div>
+        <h3 className="text-xs tracking-widest uppercase text-[#3A3A38] mb-8">
+          Technical Skills
+        </h3>
+        <div className="flex flex-col gap-4">
+          {[
+            { name: "Bash", status: "proficient" },
+            { name: "Linux", status: "proficient" },
+            { name: "Git & GitHub", status: "proficient" },
+            { name: "Next.js", status: "proficient" },
+            { name: "Python", status: "learning" },
+          ].map((skill) => (
+            <div key={skill.name} className="flex items-center justify-between border-b border-[#1a1a1a] pb-4">
+              <span className="text-sm text-[#EDEBE4]">{skill.name}</span>
+              {skill.status === "learning" ? (
+                <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
+                  In progress
+                </span>
+              ) : (
+                <span className="w-2 h-2 rounded-full bg-[#EDEBE4]"></span>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* GitHub */}
+        
+          href="https://github.com/David-Harold"
+          target="_blank"
+          className="mt-8 inline-flex items-center gap-3 text-[#3A3A38] hover:text-[#EDEBE4] transition"
+        >
+          <span className="text-xs tracking-widest uppercase">GitHub</span>
+          <span className="text-sm">@David-Harold</span>
+        </a>
+      </div>
+
+      {/* Certifications */}
+      <div>
+        <h3 className="text-xs tracking-widest uppercase text-[#3A3A38] mb-8">
+          Certifications
+        </h3>
+        <div className="border border-[#1a1a1a] rounded-lg p-6">
+          <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
+            Google · 2024
+          </span>
+          <h4 className="mt-3 text-base font-semibold text-[#EDEBE4]">
+            Google AI Professional
+          </h4>
+          <div className="mt-4 flex flex-col gap-2">
+            {[
+              "AI Fundamentals",
+              "AI for App Building",
+              "AI for Data Analysis",
+              "AI for Content Creation",
+              "AI for Writing & Communicating",
+              "AI for Research & Insights",
+              "AI for Brainstorming & Planning",
+            ].map((course) => (
+              <div key={course} className="flex items-center gap-3">
+                <span className="w-1 h-1 rounded-full bg-[#3A3A38]"></span>
+                <span className="text-xs text-[#3A3A38]">{course}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 {/* About Section */}
 <section id="about" className="px-8 py-32 w-full border-t border-[#1a1a1a]">
   <div className="max-w-5xl mx-auto grid grid-cols-1 gap-16 sm:grid-cols-2">
