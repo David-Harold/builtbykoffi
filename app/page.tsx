@@ -8,7 +8,7 @@ export default function Home() {
           Engineer · Builder · Figure-outer
         </span>
         <h1 className="text-5xl font-bold tracking-tight leading-tight max-w-3xl">
-          David-Harold Koffi-Essiben
+          David-Harold E. Koffi-Essiben
         </h1>
         <p className="mt-6 text-lg text-[#3A3A38] max-w-xl leading-relaxed">
           Software engineer and builder based in Kigali. I build systems, 
