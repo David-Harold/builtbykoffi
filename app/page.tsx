@@ -126,7 +126,7 @@ export default function Home() {
         </h3>
         <div className="border border-[#1a1a1a] rounded-lg p-6">
           <span className="text-xs tracking-widest uppercase text-[#3A3A38]">
-            Google · 2024
+            Google · 2026
           </span>
           <h4 className="mt-3 text-base font-semibold text-[#EDEBE4]">
             Google AI Professional
