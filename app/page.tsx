@@ -86,7 +86,7 @@ export default function Home() {
 
     <div className="flex flex-col gap-6 text-[#3A3A38] text-sm leading-relaxed">
       <p>
-        I started in economics. Geopolitics. Finance. I thought that was the path — 
+        I started in Economics. Geopolitics. Finance. I thought that was the path — 
         understanding how the world moves money and power. Then I realized the real 
         leverage was in the systems underneath all of it.
       </p>
