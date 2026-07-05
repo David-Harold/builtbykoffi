@@ -29,7 +29,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-[#0F0F0F]">
         <nav className="fixed top-0 left-0 right-0 z-50 px-8 py-5 flex items-center justify-between border-b border-[#1a1a1a]">
-          <a href="/" className="text-[#EDEBE4] font-medium text-sm tracking-widest">
+          <a href="/" className="text-[#EDEBE4] font-medium text-sm tracking-widest uppercase">
             builtbykoffi
           </a>
           <div className="flex gap-8">
