@@ -7,9 +7,10 @@ export default function Typewriter() {
     <TypewriterComponent
       options={{
         strings: [
-          "Engineer · Builder · Figure-outer",
-          "Building from Africa.",
-          "Security · Systems · Scale.",
+           "Engineer · Builder · Figure-outer",
+           "Finance · Infrastructure · Digitalization",
+           "Building from Africa.",
+           "Systems · Scale · People",
         ],
         autoStart: true,
         loop: true,

@@ -27,8 +27,22 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#0F0F0F]">
-        <nav className="fixed top-0 left-0 right-0 z-50 px-8 py-5 flex items-center justify-between border-b border-[#1a1a1a]">
+      <body className="min-h-full flex flex-col relative">
+
+        {/* Fixed parallax background */}
+        <div
+          className="fixed inset-0 -z-10"
+          style={{
+            backgroundImage: "url('/yaoundenight.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        />
+        {/* Dark overlay */}
+        <div className="fixed inset-0 -z-10 bg-[#0F0F0F]/50" />
+
+        {/* Navbar */}
+        <nav className="fixed top-0 left-0 right-0 z-50 px-8 py-5 flex items-center justify-between border-b border-[#1a1a1a] bg-[#0F0F0F]/80 backdrop-blur-sm">
           <a href="/" className="text-[#EDEBE4] font-medium text-sm tracking-widest uppercase">
             builtbykoffi
           </a>
@@ -38,6 +52,7 @@ export default function RootLayout({
             <a href="#contact" className="text-[#3A3A38] hover:text-[#EDEBE4] text-sm transition">Contact</a>
           </div>
         </nav>
+
         {children}
       </body>
     </html>
