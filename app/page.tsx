@@ -336,7 +336,7 @@ export default function Home() {
                 I started in Economics. Geopolitics. Finance. IB Diploma, then a degree in Economics and Management at PKFOKAM Institute — GPA 4.11. I thought that was the path. Then I realized the real leverage was in the systems underneath all of it.
               </p>
               <p>
-                I transferred to African Leadership University in Kigali to study Software Engineering. GPA 4.07. Before that I spent a summer at the Bank of Central African States, building quantitative risk models and writing research that ended up on the Director of Financial Stability's desk.
+                I transferred to African Leadership University in Kigali to study Software Engineering. TGPA 4.70/5.0. Before that I spent a summer at the Bank of Central African States, building quantitative risk models and writing research that ended up on the Director of Financial Stability's desk.
               </p>
               <p>
                 Now I build software. Led the Central Bank Liquidity System. Built AI-powered tools during my Google AI Professional certification. Run the @builtbykoffi brand — dark, minimal, serious.
