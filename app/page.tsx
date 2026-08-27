@@ -284,8 +284,23 @@ export default function Home() {
             <FadeIn delay={0.2}>
               <div>
                 <h3 className="text-xs tracking-widest uppercase text-[#EDEBE4]/50 mb-8">
-                  Certifications
+                  Certifications & Education
                 </h3>
+
+                {/* ALU */}
+                <div className="border border-[#EDEBE4]/10 bg-[#0F0F0F]/60 backdrop-blur-sm rounded-lg p-6 mb-6">
+                  <span className="text-xs tracking-widest uppercase text-[#EDEBE4]/50">
+                    African Leadership University · 2026–2028
+                  </span>
+                  <h4 className="mt-3 text-base font-semibold text-[#EDEBE4]">
+                    BSc Software Engineering
+                  </h4>
+                  <p className="mt-2 text-sm text-[#EDEBE4]/60">
+                    TGPA 4.70 / 5.0
+                  </p>
+                </div>
+
+                {/* Google AI */}
                 <div className="border border-[#EDEBE4]/10 bg-[#0F0F0F]/60 backdrop-blur-sm rounded-lg p-6">
                   <span className="text-xs tracking-widest uppercase text-[#EDEBE4]/50">
                     Google · 2026
@@ -310,6 +325,7 @@ export default function Home() {
                     ))}
                   </div>
                 </div>
+
               </div>
             </FadeIn>
 
